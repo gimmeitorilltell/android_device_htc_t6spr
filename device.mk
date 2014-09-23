@@ -20,5 +20,12 @@ $(call inherit-product-if-exists, vendor/htc/t6spr/t6spr-vendor.mk)
 # local overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# FM radio
+PRODUCT_PACKAGES += \
+    FM2 \
+    FMRecord \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Inherit from t6-common
 $(call inherit-product, device/htc/t6-common/t6-common.mk)
