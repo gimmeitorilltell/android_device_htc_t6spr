@@ -11,7 +11,7 @@ $(call inherit-product, device/htc/t6spr/device.mk)
 PRODUCT_DEVICE := t6spr
 PRODUCT_NAME := cm_t6spr
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := One
+PRODUCT_MODEL := HTC0P3P7
 PRODUCT_MANUFACTURER := HTC
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
