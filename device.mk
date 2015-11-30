@@ -22,10 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # FM radio
 PRODUCT_PACKAGES += \
-    FM2 \
-    FMRecord \
-    libqcomfm_jni \
-    qcom.fmradio
+    FMRadio \
+    libfmjni
 
 # Inherit from t6-common
 $(call inherit-product, device/htc/t6-common/t6-common.mk)
