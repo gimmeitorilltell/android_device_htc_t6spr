@@ -26,5 +26,8 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Slim Framework
+DISABLE_SLIM_FRAMEWORK := true
+
 # Inherit from t6-common
 $(call inherit-product, device/htc/t6-common/t6-common.mk)
